@@ -1,0 +1,47 @@
+.ant-layout-header {
+    background: #fff;
+    line-height: 48px !important;
+}
+
+.app-header {
+    position: fixed;
+    width: 100vw;
+    height: 48px;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+    justify-content: space-around;
+    border-bottom: 1px solid #e8e8e8;
+
+    .left {
+        display: flex;
+        flex: 1;
+
+        .toggle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 48px;
+        }
+
+        .app-header-logo {
+            height: 48px;
+            width: 100px;
+
+            img {
+                width: 100%;
+                height: 90%;
+                object-fit: contain;
+            }
+        }
+    }
+
+    .right {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+}

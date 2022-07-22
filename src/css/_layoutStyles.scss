@@ -1,0 +1,13 @@
+.app-layout {
+    .app-header {
+        // height: 48px;
+        svg {
+            font-size: 18px;
+        }
+    }
+
+    .app-sider {
+        min-width: 48px !important;
+        width: 48px !important;
+    }
+}
